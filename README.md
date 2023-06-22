@@ -10,12 +10,46 @@ Objetivo  Para esta tarefa você deve implementar um par de programas para encri
 
 # Relatório - Implementação de Encriptação e Decriptação RSA
 
+Escreva o que deseja no arquivo texto.txt
+Ele será criptografado no arquivo criptografado.txt
+E será descriptografado no arquivo descriptografado.txt
+
+Para testar utilize os comandos:
+
+npm install big-integer (instale esse pacote)
+node encripta.js chave.txt texto.txt criptografado.txt (aqui irá criptografar)
+node decripta.js chave.txt criptografado.txt descriptografado.txt (aqui irá drescriptografar)
+
 # Planejamento e Organização do Código:
+Em nosso pensamento separar os arquivos de criptografia e descriptografia seria mais organizado, então fizemos 2 arquivos cada um com sua função. 
+
+Encripta
+-ler arquivo chave
+-ler arquivo de entrada
+-pedaço codificado
+-Codifica os dados em blocos e criptografa
+-Grava pedaços codificados no arquivo de saída
+
+Decripta
+-calcular a exponenciação modular
+-Ler os nomes dos arquivos de entrada e saída da linha de comando
+-Ler os dados do arquivo de chaves
+-Ler os grupos criptografados
+-Descriptografar os grupos
+-Converter os grupos descriptografados de volta para texto
+-Escrever o texto descriptografado no arquivo de saída
 
 # Linguagem de Programação:
+Utilizamos Node.js pois é uma das que mais nos identifico e gostamos de trabalhar.
 
 # Problemas Encontrados:
+Certa dificuldade apenas para entender a proposta inicial, mas depois ficou mais tranquilo de entender. E tambem quais arquivos utilizar para os testes. Olhando pelo gist ele não está na forma ideal com chave publica e privada mas está funcionando de certa forma.
 
+# Teste:
+Para o teste eu criei um arquivo chamado chave.txt onde ficam as chaves para a criptografia, e um arquivo texto.txt para escrever a mensagem a ser criptografada.
+
+#Avalie o projeto: 
+No gostamos achamos muito interessante, meio confuso mas bem bacana.
 
 //------------------------------------------------------------------------------------------
 

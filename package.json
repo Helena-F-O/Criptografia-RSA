@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "big-integer": "^1.6.51",
+    "jsbn": "^1.1.0"
+  }
+}
