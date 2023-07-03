@@ -40,7 +40,7 @@ Decripta
 -Escrever o texto descriptografado no arquivo de saída
 
 # Linguagem de Programação:
-Utilizamos Node.js pois é uma das que mais nos identifico e gostamos de trabalhar.
+Utilizamos Node.js pois é uma das que mais nos identificamos e gostamos de trabalhar.
 
 # Problemas Encontrados:
 Certa dificuldade apenas para entender a proposta inicial, mas depois ficou mais tranquilo de entender. E tambem quais arquivos utilizar para os testes. Olhando pelo gist ele não está na forma ideal com chave publica e privada mas está funcionando de certa forma.
